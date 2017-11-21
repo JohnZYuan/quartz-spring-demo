@@ -1,11 +1,13 @@
 /**
  * @文件名称： DumbJob.java
  * @文件路径： jobs
- * @功能描述： TODO
+ * @功能描述： 带状态参数的Job （注入式）
  * @作者： yuanzhen
  * @创建时间：2017年11月21日 下午1:53:00
  */
 package jobs;
+
+import java.util.ArrayList;
 
 import org.quartz.Job;
 import org.quartz.JobDataMap;
