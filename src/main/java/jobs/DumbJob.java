@@ -7,6 +7,8 @@
  */
 package jobs;
 
+import java.util.ArrayList;
+
 import org.quartz.Job;
 import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;

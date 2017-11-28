@@ -57,7 +57,7 @@ public class QuartzHelloTest {
 							.withIntervalInSeconds(4)
 							.repeatForever())
 					.build();
-			
+
 			//调度Job，将JobDetail和Trigger绑定在一起
 			//scheduler.scheduleJob(helloJob,trigger);
 			scheduler.scheduleJob(dumbJob, trigger);
